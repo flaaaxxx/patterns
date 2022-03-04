@@ -4,7 +4,7 @@ import java.util.List;
 
 public class SendMessage implements Runnable {
 
-    private List<Observer> observerList;
+    private final List<Observer> observerList;
 
     public SendMessage(List<Observer> observerList) {
         this.observerList = observerList;
