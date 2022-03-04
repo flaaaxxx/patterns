@@ -1,8 +1,16 @@
 package pl.flaaaxxx;
 
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.List;
+
+/*
+    Zadanie + Element, który obserwuje,
+    Zadanie nie wiadomo kiedy się skończy.
+    Do zadania dodany zostaje obserwator.
+    W momencie zakończenia zadania obserwator otrzymuje o tym informację
+
+*/
+
 
 public class Main {
 
