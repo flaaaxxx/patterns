@@ -1,10 +1,10 @@
 package pl.flaaaxxx;
 
-public class SendManager implements Observer {
+public class Obserwator implements Observer {
 
     String info;
 
-    public SendManager(String info) {
+    public Obserwator(String info) {
         this.info = info;
     }
 

@@ -13,9 +13,16 @@ public class SendMessage implements Runnable {
     @Override
     public void run() {
         try {
-            for (int i = 0; i < 10; i++) {
-                Thread.sleep(100);
-                System.out.println(i);
+            if (observerList.size() == 3) {
+                for (int i = 0; i < 100; i++) {
+                    Thread.sleep(100);
+                    System.out.println(i);
+                }
+            } else {
+                for (int i = 0; i < 10; i++) {
+                    Thread.sleep(100);
+                    System.out.println(i);
+                }
             }
 
             observerList.forEach(Observer::update);
