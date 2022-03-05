@@ -1,6 +1,6 @@
 package pl.flaaaxxx;
 
-public class ElectricWindows extends CarAcessoriesDecorator {
+public class ElectricWindows extends CarAccessoriesDecorator {
 
     private final Car car;
 

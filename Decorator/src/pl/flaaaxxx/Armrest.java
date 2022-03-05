@@ -1,6 +1,6 @@
 package pl.flaaaxxx;
 
-public class Armrest extends CarAcessoriesDecorator {
+public class Armrest extends CarAccessoriesDecorator {
 
     private final Car car;
 
